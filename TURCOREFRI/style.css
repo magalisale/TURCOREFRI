@@ -1,0 +1,321 @@
+.botones a{
+    font-size: 0.7rem;
+}
+
+.letrachica{
+    font-size: 4rem;
+}
+
+.grisocuro{
+    background-color: rgb(241, 136, 66);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.brilloOscuro{
+    filter: brightness(70%);
+    opacity: 0.8;
+}
+.navbar {
+    padding: 5rem;     
+     
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    ;
+
+    
+}
+.nav-link{
+    font-weight: bold; /* Letras en negritas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-size: 15px; /* Tamaño de fuente */
+    color: orange; /* Color del texto (blanco en este caso) */
+    align-items: center;
+    
+}
+.animate__animated {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 20vh; /* 100% del alto de la ventana */
+    color: orange;
+    margin-top: 10px;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+    left: 0; /* Alinear a la izquierda */
+    right: 0;
+}
+
+/* Estilo para la imagen en estado normal */
+.img-zoom {
+    transition: transform 0.3s; /* Agregar una transición suave para el efecto */
+}
+
+/* Estilo cuando el mouse se posicione sobre la imagen */
+.img-zoom:hover {
+    transform: scale(1.2); /* Aumentar el tamaño de la imagen en un 20% */
+}
+
+.info{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+    margin-top: 10px;
+    font-size: 50px;
+ 
+}
+
+.p-info{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+}
+
+.link-verde {
+    color: rgb(241, 136, 66) !important;
+}
+
+
+.convocatoria-oradores{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.div-orador{
+    font-size: 14px;
+}
+
+.text-convocatoria{
+    font-size: 13px;
+}
+
+.formulario{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.texto-area{
+    font-size: 12px;
+}
+
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(241, 136, 66) !important;
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 15px;
+}
+
+.footer-lista{
+    background-image: linear-gradient(to right, #1a4169,
+    #0a4674, #064e74, #1a5c8a, #085fab); 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+}
+
+.footer-link{
+    color: white !important;
+    font-size: 14px !important;
+    padding: 1.5rem 2.5rem !important;
+}
+
+.swal2-popup {
+    width: 50px;
+    }
+
+/* Página Tickets */
+
+.link-verde-ticket{
+    color: rgb(241, 136, 66) !important; 
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between !important;
+}
+
+.grupo-tickets{
+    margin-top: 8rem;
+
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-tickets:hover{
+    transform: scale(0.9);
+    transition: 0.8s linear;
+    background-color: rgb(221, 218, 218);
+}
+
+.card-tickets-estudiante{
+    border: solid 1px rgb(41, 128, 234) !important;
+}
+
+.card-tickets-trainee{
+    border: solid 1px rgb(17, 150, 216) !important;
+}
+
+.card-tickets-junior{
+    border: solid 1px rgb(225, 192, 28) !important;
+}
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #cee4ee !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: rgb(241, 136, 66) !important;
+}
+
+.footer-ticket{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+.cont-text h2{
+    
+    text-align: center;
+    margin-top: 170px;
+    margin-right: 150px;
+    margin-left: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.cont-text p {
+    margin-top: 80px;
+    margin-right: 120px;
+    margin-left: 80px;
+    text-indent: 50px;
+    text-align: justify;
+    
+}
+
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 910px) {
+
+    .navbar{
+        position: static !important;
+        background-color: aquamarine;
+        
+    }
+
+    .card-superpuesta img{
+        filter: brightness(100%);
+    }
+
+    .tarjeta {
+        padding-right: 8.5rem !important;
+        max-height: 50vh;
+        padding-left: 40vw !important;
+        font-size: 0.5rem;
+    }
+
+    .card-img-overlay {
+        padding: 2rem !important;
+        position: static !important;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .card-text1 {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    }
+    
+    .card-title1 {
+        font-size: 1.5rem;
+    }
+
+    .formulario{
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .footer-lista{
+        padding: 0 2rem;
+    }
+
+    .footer-link{
+        padding: 1.5rem 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .grupo-tickets{
+        margin-top: 2rem;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .honolulu-text{
+        text-align: center;
+    }
+    
+    .honolulu-text .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    } 
+
+    .formulario-tickets{
+        width: 90%;
+    }
+
+    .footer-ticket{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 848px) and (min-height: 850px){
+
+    .footer-ticket{
+        position: fixed;
+    }
+}
